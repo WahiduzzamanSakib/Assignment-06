@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="navbar-end flex gap-5">
                     <p>icn</p>
                     <p>Login</p>
-                    <button className='btn btn-active btn-primary rounded-full hover:bg-blue-500'>Get Started</button>
+                    <button className='btn btn-active btn-primary rounded-full hover:bg-blue-500 border-none'>Get Started</button>
                 </div>
             </div>
         </div>

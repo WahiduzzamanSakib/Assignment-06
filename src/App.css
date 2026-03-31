@@ -8,6 +8,7 @@
   border-radius: 9999px;
   font-weight: bold;
 }
+
 .grident:hover {
   background: linear-gradient(to right, #cd52d1, #1358da);
 }

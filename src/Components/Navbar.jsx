@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='bg-base-100 shadow-sm'>
+        <div className='bg-base-100 shadow-sm sticky top-1 z-50'>
             <div className="navbar  md:max-w-10/12 mx-auto">
                 <div className="navbar-start">
                     <a className="font-bold text-3xl text-blue-800 cursor-pointer hover:bg-blue-200">DigiTools</a>

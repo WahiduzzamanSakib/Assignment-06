@@ -40,9 +40,9 @@ const Banner = () => {
                     <button className='btn btn-active btn-primary rounded-full grident border-none'>
                         Explore Products
                     </button>
-                    <button className="btn btn-outline border-blue-600 gap-2 rounded-full">
+                    <button className="btn btn-outline border-blue-600 gap-2 rounded-full ">
                         <img src={playImg} alt="Watch Demo" />
-                        Watch Demo
+                      <span className='text-[#cd52d1]'>  Watch Demo</span>
                     </button>
                 </div>
             </div>

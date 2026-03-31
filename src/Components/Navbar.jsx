@@ -7,7 +7,7 @@ const Navbar = () => {
                 <div className="navbar-start">
                     <a className="font-bold text-3xl text-blue-800 cursor-pointer hover:bg-blue-200">DigiTools</a>
                 </div>
-                <div className="navbar-center hidden lg:flex lg:gap-[15px]">
+                <div className="navbar-center hidden lg:flex lg: gap- [15px]">
                     <p><a>Products</a></p>
                     <p><a>Features</a></p>
                     <p><a>Pricing</a></p>

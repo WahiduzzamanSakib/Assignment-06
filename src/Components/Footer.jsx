@@ -49,7 +49,7 @@ const Footer = () => {
 
             <div className='w-11/12 mx-auto p-3 text-gray-500'>
                 <hr />
-                <p className='flex justify-between'>
+                <div className='flex justify-between'>
 
                     <span>© 2026 Digitools. All rights reserved.</span>
                     <span className='flex gap-6'>
@@ -57,7 +57,7 @@ const Footer = () => {
                         <p>Terms of Service </p>
                         <p>Cookies</p>
                     </span>
-                </p>
+                </div>
             </div>
         </div>
     );

@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.grident {
+  background: linear-gradient(to right, #1358da, #cd52d1);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+.grident:hover {
+  background: linear-gradient(to right, #cd52d1, #1358da);
+}

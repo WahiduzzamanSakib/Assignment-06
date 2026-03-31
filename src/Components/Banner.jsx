@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="bg-white w-10/12 min-h-screen mx-auto flex flex-col lg:flex-row-reverse items-center justify-center gap-12">
             
             
-            <div className="flex-1">
+            <div>
                 <img
                     src={bannerImg}
                     alt="Banner"
@@ -17,7 +17,7 @@ const Banner = () => {
             </div>
 
 
-            <div className="flex-1 flex flex-col items-start text-left">
+            <div className="flex flex-col items-start">
                 <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 mb-6">
                     <img src={iconImg} alt="icon" className="w-4 h-4" />
                     <span className="text-blue-600 text-sm font-medium">
@@ -37,7 +37,7 @@ const Banner = () => {
                 </p>
 
                 <div className="flex gap-4">
-                    <button className='btn btn-active btn-primary rounded-full hover:bg-blue-500 border-none'>
+                    <button className='btn btn-active btn-primary rounded-full grident border-none'>
                         Explore Products
                     </button>
                     <button className="btn btn-outline border-blue-600 gap-2 rounded-full">

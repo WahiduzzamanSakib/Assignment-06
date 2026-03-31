@@ -17,7 +17,7 @@ const Steps = () => {
                         01
                     </p>
                     <div className='flex flex-col items-center space-y-3'>
-                        <img className='bg-gray-200 rounded-full p-3' src={userImg} alt="" />
+                        <img className='bg-gray-200 rounded-full p-3 cursor-pointer' src={userImg} alt="" />
                         <h2 className='text-2xl font-bold'>Create Account</h2>
                         <p className='text-gray-500'>Sign up for free in seconds. No credit card<br />required to get started.</p>
                     </div>
@@ -27,7 +27,7 @@ const Steps = () => {
                         02
                     </p>
                     <div className='flex flex-col items-center space-y-3'>
-                        <img className='bg-gray-200 rounded-full p-3' src={packageImg} alt="Choose Products" />
+                        <img className='bg-gray-200 rounded-full p-3 cursor-pointer' src={packageImg} alt="Choose Products" />
                         <h2 className='text-2xl font-bold'>Choose Products</h2>
                         <p className='text-gray-500'>Browse our catalog and select the tools <br /> that fit your needs.</p>
                     </div>
@@ -37,7 +37,7 @@ const Steps = () => {
                         01
                     </p>
                     <div className='flex flex-col items-center space-y-3'>
-                        <img className='bg-gray-200 rounded-full p-3 w-18' src={rocketImg} alt="Start Creating" />
+                        <img className='bg-gray-200 rounded-full p-3 w-18 cursor-pointer' src={rocketImg} alt="Start Creating" />
                         <h2 className='text-2xl font-bold'>Start Creating</h2>
                         <p className='text-gray-500'>Download and start using your premium <br /> tools immediately.</p>
                     </div>

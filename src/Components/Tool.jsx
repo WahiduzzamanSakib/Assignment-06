@@ -11,7 +11,7 @@ const Tool = ({ tool, carts, setCarts }) => {
 };
 
     return (
-        <div className=' rounded-md bg-base-200 shadow-lg p-3'>
+        <div className=' rounded-md bg-base-200 shadow-lg p-3 md:54'>
             <div className='flex justify-between p-5 '>
                 <p>{tool.icon}</p>
                 <p><span className={`px-2 py-1 rounded-full font-semibold

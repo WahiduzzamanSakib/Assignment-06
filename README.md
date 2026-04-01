@@ -1,16 +1,16 @@
-# React + Vite
+Technologies Used
+1. HTML5
+2. React.js
+3. Tailwind CSS,
+4. DaisyUI
+5. React-Toastify (NPM Package)
+6. JSON (for product data)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+1. Interactive Shopping Cart – Click on a product to automatically add it to your cart.
+2. Dynamic Navbar Count – The cart count updates in real-time whenever a product is added.
+3. Proceed to Checkout – Clears the cart count upon checkout for a seamless shopping experience.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚡ Optional Features
+Cart Interaction – Clicking on a product increases the cart count in the Navbar and clears it when you click on the proceed to checkout button.
+Buy Now Feedback – Clicking the "Buy Now" button displays an “Added to cart” message, giving feedback.

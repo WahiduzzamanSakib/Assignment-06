@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaShoppingCart } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
     return (
         <div className='bg-base-100 shadow-sm sticky top-1 z-50'>
             <div className="navbar  md:max-w-10/12 mx-auto">
                 <div className="navbar-start">
-                    <a className="font-bold text-3xl text-blue-800 cursor-pointer hover:bg-blue-200">DigiTools</a>
+                    <a className="font-bold text-3xl text-blue-800 cursor-pointer hover:text-blue-400">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex lg: gap-[15px]">
                     <p><a>Products</a></p>
@@ -19,7 +19,7 @@ const Navbar = () => {
                         <div className="relative">
                             <FaShoppingCart size={28}/>
                             <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
-                                2
+                              {carts.length}
                             </span>
                         </div>
                     <p className='hidden md:flex'>Login</p>

@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {toast } from 'react-toastify';
 
-const Tool = ({ tool }) => {
-    console.log(tool)
+const Tool = ({ tool, carts, setCarts }) => {
+
+    const [isBuy, setBuy] = useState(false)
+     const handleClick = () => {
+    setBuy(true);
+    setCarts([...carts, tool]);
+    toast.success("Added to cart");
+};
+
     return (
-        <div className=' rounded-md bg-base-200 shadow-sm p-3'>
+        <div className=' rounded-md bg-base-200 shadow-lg p-3'>
             <div className='flex justify-between p-5 '>
                 <p>{tool.icon}</p>
                 <p><span className={`px-2 py-1 rounded-full font-semibold
@@ -30,15 +38,17 @@ const Tool = ({ tool }) => {
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                        <span>Custom integrations{tool.features[2]}</span>
+                        <span>{tool.features[2]}</span>
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                        <span>Dedicated support{tool.features[3]}</span>
+                        <span>{tool.features[3]}</span>
                     </li>
                 </ul>
                 <div className="mt-6">
-                    <button className="btn btn-primary btn-block grident rounded-full border-none">Buy Now</button>
+                    <button className={`btn btn-block rounded-full border-none ${isBuy ? "bg-purple-900 text-white" : "btn-primary"}`}onClick={handleClick}>
+                        {isBuy ? "Checkout" : "Buy Now"}
+                    </button>
                 </div>
             </div>
         </div>

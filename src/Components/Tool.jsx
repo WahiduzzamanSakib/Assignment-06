@@ -6,6 +6,13 @@ const Tool = ({ tool, carts, setCarts }) => {
     const [isBuy, setBuy] = useState(false)
      const handleClick = () => {
     setBuy(true);
+
+const isFind = carts.find(item => item.id === tool.id)
+  if(isFind ){
+    toast.error("Already Added")
+    return;
+  }
+
     setCarts([...carts, tool]);
     toast.success("Added to cart");
 };

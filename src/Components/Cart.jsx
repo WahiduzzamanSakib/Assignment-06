@@ -29,7 +29,7 @@ const Cart = ({ carts, setCarts }) => {
                                     <p className="text-2xl">{item.icon}</p>
                                 </div>
                                 <div>
-                                    <p className='text-2xl font-bold'>{item.name}</p>
+                                    <p className='text-xl font-bold'>{item.name}</p>
                                     <p>${item.price}</p>
                                 </div>
                             </div>

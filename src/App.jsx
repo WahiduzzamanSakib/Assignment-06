@@ -12,7 +12,7 @@ import Cart from './Components/Cart'
 import { ToastContainer} from 'react-toastify';
 
 
-const toolsApi = fetch("https://mocki.io/v1/5fd405c7-d0e2-4a6b-af2e-8feb7514dfca")
+const toolsApi = fetch("data.json")
 .then(res => res.json())
 
 function App() {

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes with modern templates and ATS optimization tools.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter generator"
+    ],
+    "icon": "📝"
+  },
+  {
+    "id": "prod_002",
+    "name": "Design Studio Pro",
+    "description": "All-in-one graphic design tool for social media, ads, and branding.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Drag & drop editor",
+      "5,000+ assets",
+      "Brand kit support",
+      "Team collaboration"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": "prod_003",
+    "name": "LearnX Academy",
+    "description": "Online learning platform with courses in tech, business, and design.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ courses",
+      "Certificates included",
+      "Offline access",
+      "Expert instructors"
+    ],
+    "icon": "📚"
+  },
+  {
+    "id": "prod_004",
+    "name": "Cloud Storage Plus",
+    "description": "Secure cloud storage for personal and business files with advanced encryption.",
+    "price": 59.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "1TB storage",
+      "End-to-end encryption",
+      "Auto backup",
+      "Cross-device sync"
+    ],
+    "icon": "☁️"
+  },
+  {
+    "id": "prod_005",
+    "name": "AI Writing Assistant",
+    "description": "Generate high-quality content for blogs, ads, and emails using AI.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "SEO optimization",
+      "Grammar correction",
+      "Content rewriting",
+      "Tone adjustment"
+    ],
+    "icon": "✍️"
+  },
+  {
+    "id": "prod_006",
+    "name": "Fitness Tracker Pro",
+    "description": "Track workouts, calories, and health metrics with smart insights.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Workout tracking",
+      "Heart rate monitor",
+      "Calorie counter",
+      "Personalized plans"
+    ],
+    "icon": "💪"
+  },
+  {
+    "id": "prod_007",
+    "name": "Project Management Suite",
+    "description": "Manage tasks, teams, and workflows efficiently in one platform.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Task boards",
+      "Team chat",
+      "Gantt charts",
+      "Time tracking"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": "prod_008",
+    "name": "E-Commerce Starter Kit",
+    "description": "Launch your online store quickly with built-in templates and payment support.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Store templates",
+      "Payment integration",
+      "Inventory management",
+      "SEO tools"
+    ],
+    "icon": "🛒"
+  }
+]

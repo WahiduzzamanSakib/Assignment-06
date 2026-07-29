@@ -26,45 +26,11 @@
 
 ---
 
-## 📦 Dependencies
-- `react`  
-- `react-dom`  
-- `tailwindcss`  
-- `daisyui`  
-- `react-toastify`  
 
-*(Check `package.json` for full dependency list)*
-
----
-
-## 🚀 How to Run Locally
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/WahiduzzamanSakib/Assignment-06.git
-````
-
-2. Navigate to the project folder
-
-   ```bash
-   cd Assignment-06
-   ```
-3. Install dependencies
-
-   ```bash
-   npm install
-   ```
-4. Start the development server
-
-   ```bash
-   npm start
-   ```
-5. Open in Browser
----
-
-## 🌐 Live & GitHub Links
+<!--- ## 🌐 Live & GitHub Links
 
 * **Live Demo:** [https://wahiduzzamansakib.github.io/Assignment-06/](https://wahiduzzamansakib.github.io/Assignment-06/)
-* **GitHub Repository:** [https://github.com/WahiduzzamanSakib/Assignment-06](https://github.com/WahiduzzamanSakib/Assignment-06)
+* **GitHub Repository:** [https://github.com/WahiduzzamanSakib/Assignment-06](https://github.com/WahiduzzamanSakib/Assignment-06) --->
 
 
 
